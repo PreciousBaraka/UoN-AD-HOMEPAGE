@@ -1,0 +1,83 @@
+* body {
+    background-image: url(./images/uon\ towers.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(66, 65, 65, 0.5);
+    padding-top: 90px;
+    padding-bottom: 100px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form ul {
+    list-style-type: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 35px;
+    margin-top: -20px;
+    color: white;
+}
+
+.btn1 button {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    align-items: centre;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    height: 35px;
+    width: 90%;
+    color: black;
+}
+
+
+.btn2 button {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    color: skyblue;
+    margin-bottom: 10px;
+    width: 60%;
+    text-align: centre;
+    justify-content: center;
+    align-items: centre;
+    margin-left: 110px;
+    border: none;
+
+}
+
+.btn3 button {
+    display: flex;
+    flex-direction: column;
+    height: 35px;
+    width: 90%;
+    margin-left: 20px;
+    background-color: skyblue;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.p{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

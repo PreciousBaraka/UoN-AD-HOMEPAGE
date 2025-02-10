@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./uon.css">
+    <title>UoN AD</title>
+</head>
+
+<body>
+    <section class="wrapper">
+        <section class="container">
+            <section class="form">
+                <img src="./images/UON LOGO.png" alt="University of Nairobi Logo">
+                <h1>UNIVERSITY OF NAIROBI</h1>
+                <ul>
+                    <li>Please enter your username and password to continue</li>
+                </ul>
+
+                <!-- Login Form (Appears on its own line) -->
+                <form id="loginForm" action="process_login.php" method="POST">
+                    <label for="username">AD Account:</label>
+                    <input type="text" id="username" name="username" required>
+
+                    <label for="password">AD Password:</label>
+                    <input type="password" id="password" name="password" required>
+
+                    <button type="submit" class="login-btn">LOGIN</button>
+                </form>
+
+                <!-- Separate Forgot Password Forms -->
+                <div class="form-group">
+                    <form id="forgotPasswordFormStaff" action="staff_forgot_password.php" method="POST">
+                        <button type="submit" class="staff-forgot-btn">Staff Forgot Password</button>
+                    </form>
+                </div>
+
+                <div class="form-group">
+                    <form id="forgotPasswordFormStudents" action="students_forgot_password.php" method="POST">
+                        <button type="submit" class="students-forgot-btn">Students Forgot Password</button>
+                    </form>
+                </div>
+
+                <section class="p">
+                    <p>Having problems with your account? Contact customer <br>care at email: helpdeskmain@uonbi.ac.ke.
+                    </p>
+                    <p>By using the University of Nairobi network and <br>services, you agree to the University ICT Policy.
+                    </p>
+                </section>
+            </section>
+        </section>
+
+        <script src="uon.js"></script>
+</body>
+
+</html>
